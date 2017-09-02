@@ -1,0 +1,26 @@
+{
+    "name": "inform6",
+    "displayName": "Inform6Syntax",
+    "description": "Syntax Highlighter for Inform 6",
+    "version": "0.0.1",
+    "publisher": "grendrake",
+    "engines": {
+        "vscode": "^1.15.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "inform6",
+            "aliases": ["Inform 6 Source File", "inform6"],
+            "extensions": [".inf",".h"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "inform6",
+            "scopeName": "source.inform6",
+            "path": "./syntaxes/inform6.tmLanguage"
+        }]
+    }
+}

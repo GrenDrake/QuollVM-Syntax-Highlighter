@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>scopeName</key>
+        <string>source.inform6</string>
+
+        <key>fileTypes</key>
+        <array>
+            <string>inf</string>
+            <string>h</string>
+        </array>
+
+        <key>name</key>
+        <string>Inform 6 Source File</string>
+
+        <key>patterns</key>
+        <array>
+            <dict>
+                <key>match</match>
+                <string>!.*$</string>
+                <key>name</key>
+                <string>comment.line.character</string>
+            </dict>
+
+            <dict>
+                <key>match</key>
+                <string>\b(?i:(return|rtrue|rfalse|if|else|do|until))\b</string>
+                <key>name</key>
+                <string>keyword.control</string>
+            </dict>
+
+            <dict>
+                <key>match</key>
+                <string>#(?i:(include|ifdef|endif|ifnot|message))\b</string>
+                <key>name</key>
+                <string>keyword.other</string>
+            </dict>
+
+            <dict>
+                <key>match</match>
+                <string>(-|\b)[0-9]+\b</string>
+                <key>name</key>
+                <string>constant.numeric</string>
+            </dict>
+
+            <dict>
+                <key>begin</match>
+                <string>"</string>
+                <key>end</match>
+                <string>"</string>
+                <key>name</key>
+                <string>string.quoted.double</string>
+            </dict>
+
+            <dict>
+                <key>match</match>
+                <string>\b(?i:(object|class|with|has|property|attribute|global|constant|replace|print))\b</string>
+                <key>name</key>
+                <string>constant.language</string>
+            </dict>
+
+            <dict>
+                <key>match</match>
+                <string>(=|~|<|>|\+|-|\*|/|\?)</string>
+                <key>name</key>
+                <string>keyword.operator</string>
+            </dict>
+                           
+        </array>
+        <key>uuid</key>
+        <string>4e63b622-9001-11e7-abc4-cec278b6b50a</string>
+    </dict>
+</plist>
