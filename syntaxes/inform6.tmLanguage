@@ -24,14 +24,14 @@
 
             <dict>
                 <key>match</key>
-                <string>\b(?i:(return|rtrue|rfalse|if|else|do|until))\b</string>
+                <string>\b(?i:(return|rtrue|rfalse|if|else|do|while|until|switch))\b</string>
                 <key>name</key>
                 <string>keyword.control</string>
             </dict>
 
             <dict>
                 <key>match</key>
-                <string>#(?i:(include|ifdef|endif|ifnot|message))\b</string>
+                <string>#?(?i:(include|ifdef|ifndef|endif|ifnot|message))\b</string>
                 <key>name</key>
                 <string>keyword.other</string>
             </dict>
@@ -61,7 +61,7 @@
 
             <dict>
                 <key>match</match>
-                <string>(=|~|<|>|\+|-|\*|/|\?)</string>
+                <string>(=|~|<|>|\+|-|\*|/|\?|\+\+|--)</string>
                 <key>name</key>
                 <string>keyword.operator</string>
             </dict>
