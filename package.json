@@ -14,7 +14,7 @@
         "languages": [{
             "id": "inform6",
             "aliases": ["Inform 6 Source File", "inform6"],
-            "extensions": [".inf",".h"],
+            "extensions": [".inf"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{

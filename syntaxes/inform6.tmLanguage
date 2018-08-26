@@ -8,7 +8,6 @@
         <key>fileTypes</key>
         <array>
             <string>inf</string>
-            <string>h</string>
         </array>
 
         <key>name</key>
@@ -66,7 +65,7 @@
                 <key>name</key>
                 <string>keyword.operator</string>
             </dict>
-                           
+
         </array>
         <key>uuid</key>
         <string>4e63b622-9001-11e7-abc4-cec278b6b50a</string>
