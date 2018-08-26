@@ -53,6 +53,15 @@
             </dict>
 
             <dict>
+                <key>begin</match>
+                <string>'</string>
+                <key>end</match>
+                <string>'</string>
+                <key>name</key>
+                <string>string.quoted.single</string>
+            </dict>
+
+            <dict>
                 <key>match</match>
                 <string>\b(?i:(object|class|with|has|property|attribute|global|constant|replace|print))\b</string>
                 <key>name</key>
