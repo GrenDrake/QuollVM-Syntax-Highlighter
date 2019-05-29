@@ -24,7 +24,7 @@
 
             <dict>
                 <key>match</key>
-                <string>\b(?i:(if|while|do_while|print|label))\b</string>
+                <string>\b(?i:(if|while|do_while|print|label|proc|continue|break))\b</string>
                 <key>name</key>
                 <string>keyword.control</string>
             </dict>
