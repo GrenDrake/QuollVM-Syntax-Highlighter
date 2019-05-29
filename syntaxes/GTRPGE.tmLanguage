@@ -3,35 +3,35 @@
 <plist version="1.0">
     <dict>
         <key>scopeName</key>
-        <string>source.inform6</string>
+        <string>source.gtrpge</string>
 
         <key>fileTypes</key>
         <array>
-            <string>inf</string>
+            <string>src</string>
         </array>
 
         <key>name</key>
-        <string>Inform 6 Source File</string>
+        <string>GTRPGE Source File</string>
 
         <key>patterns</key>
         <array>
             <dict>
                 <key>match</match>
-                <string>!.*$</string>
+                <string>//.*$</string>
                 <key>name</key>
                 <string>comment.line.character</string>
             </dict>
 
             <dict>
                 <key>match</key>
-                <string>\b(?i:(return|rtrue|rfalse|if|else|do|while|until|switch))\b</string>
+                <string>\b(?i:(if|while|do_while|print|label))\b</string>
                 <key>name</key>
                 <string>keyword.control</string>
             </dict>
 
             <dict>
                 <key>match</key>
-                <string>#?(?i:(include|ifdef|ifndef|endif|ifnot|message))\b</string>
+                <string>#?(?i:(function|object|declare|asm_function))\b</string>
                 <key>name</key>
                 <string>keyword.other</string>
             </dict>
@@ -63,17 +63,18 @@
 
             <dict>
                 <key>match</match>
-                <string>\b(?i:(object|class|with|has|property|attribute|global|constant|replace|print))\b</string>
+                <string>\b(?i:(return|push_0|push_1|push_none|push_8|push_16|push_32|store|say_uf|say|say_unsigned|say_char|pop|stack_dup|stack_peek|stack_size|call|get_prop|has_prop|set_prop|get_item|has_item|get_size|set_item|del_item|add_item|typeof|astype|eq|neq|jmp|jz|jnz|lt|lte|gt|gte|not|add|sub|mult|div|mod|pow|left_shift|right_shift|bit_and|bit_or|bit_xor|bit_not|random|get_random|get_keys|stack_swap|get_setting|set_setting|get_key|get_option|get_line|add_option|add_option_x|strcpy|strcat|strlen|strcmp|error|add_page|del_page|end_page|new|is_static|))\b</string>
                 <key>name</key>
                 <string>constant.language</string>
             </dict>
-
+            <!--
             <dict>
                 <key>match</match>
-                <string>(=|~|<|>|\+|-|\*|/|\?|\+\+|--)</string>
+                <string>(=|~|<|>|\+|-|\*|/|\?|\+\+)</string>
                 <key>name</key>
                 <string>keyword.operator</string>
             </dict>
+                -->
 
         </array>
         <key>uuid</key>

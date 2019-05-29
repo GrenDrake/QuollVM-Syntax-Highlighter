@@ -1,7 +1,7 @@
 {
-    "name": "inform6",
-    "displayName": "Inform6Syntax",
-    "description": "Syntax Highlighter for Inform 6",
+    "name": "GTRPGE",
+    "displayName": "GTRPGE Source",
+    "description": "Syntax Highlighter for GTRPGE Source Files",
     "version": "0.0.1",
     "publisher": "grendrake",
     "engines": {
@@ -12,15 +12,15 @@
     ],
     "contributes": {
         "languages": [{
-            "id": "inform6",
-            "aliases": ["Inform 6 Source File", "inform6"],
-            "extensions": [".inf"],
+            "id": "GTRPGE",
+            "aliases": ["GTPRGE Source File", "GTRPGE"],
+            "extensions": [".src"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
-            "language": "inform6",
-            "scopeName": "source.inform6",
-            "path": "./syntaxes/inform6.tmLanguage"
+            "language": "GTRPGE",
+            "scopeName": "source.gtrpge",
+            "path": "./syntaxes/GTRPGE.tmLanguage"
         }]
     }
 }
