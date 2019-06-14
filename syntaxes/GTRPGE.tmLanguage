@@ -47,18 +47,36 @@
                 <key>begin</match>
                 <string>"</string>
                 <key>end</match>
-                <string>[^\\]"</string>
+                <string>"</string>
                 <key>name</key>
                 <string>string.quoted.double</string>
+                <key>patterns</key>
+                <array>
+                    <dict>
+                        <key>name</key>
+                        <string>constant.character.escape.untitled</string>
+                        <key>match</key>
+                        <string>\\.</string>
+                    </dict>
+                </array>
             </dict>
 
             <dict>
                 <key>begin</match>
                 <string>'</string>
                 <key>end</match>
-                <string>[^\\]'</string>
+                <string>'</string>
                 <key>name</key>
                 <string>string.quoted.single</string>
+                <key>patterns</key>
+                <array>
+                    <dict>
+                        <key>name</key>
+                        <string>constant.character.escape.untitled</string>
+                        <key>match</key>
+                        <string>\\.</string>
+                    </dict>
+                </array>
             </dict>
 
             <dict>
