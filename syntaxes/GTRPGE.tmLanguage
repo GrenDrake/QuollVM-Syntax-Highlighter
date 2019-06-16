@@ -8,6 +8,7 @@
         <key>fileTypes</key>
         <array>
             <string>src</string>
+            <string>gs</string>
         </array>
 
         <key>name</key>

@@ -14,7 +14,7 @@
         "languages": [{
             "id": "GTRPGE",
             "aliases": ["GTPRGE Source File", "GTRPGE"],
-            "extensions": [".src"],
+            "extensions": [".src", ".gs"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
