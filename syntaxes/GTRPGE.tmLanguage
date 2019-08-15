@@ -39,7 +39,7 @@
 
             <dict>
                 <key>match</key>
-                <string>#?(?i:(function|object|declare|asm_function|default))\b</string>
+                <string>\b(?i:(function|object|declare|asm_function|default))\b</string>
                 <key>name</key>
                 <string>keyword.other</string>
             </dict>
