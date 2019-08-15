@@ -3,7 +3,7 @@
 <plist version="1.0">
     <dict>
         <key>scopeName</key>
-        <string>source.gtrpge</string>
+        <string>source.quollvm</string>
 
         <key>fileTypes</key>
         <array>
@@ -12,7 +12,7 @@
         </array>
 
         <key>name</key>
-        <string>GTRPGE Source File</string>
+        <string>QuollVM Source File</string>
 
         <key>patterns</key>
         <array>

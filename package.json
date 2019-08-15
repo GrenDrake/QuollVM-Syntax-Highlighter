@@ -1,7 +1,7 @@
 {
-    "name": "GTRPGE",
-    "displayName": "GTRPGE Source",
-    "description": "Syntax Highlighter for GTRPGE Source Files",
+    "name": "QuollVM",
+    "displayName": "QuollVM Source",
+    "description": "Syntax Highlighter for QuollVM Source Files",
     "version": "0.0.1",
     "publisher": "grendrake",
     "engines": {
@@ -12,14 +12,14 @@
     ],
     "contributes": {
         "languages": [{
-            "id": "GTRPGE",
-            "aliases": ["GTPRGE Source File", "GTRPGE"],
-            "extensions": [".src", ".gs"],
+            "id": "QuollVM",
+            "aliases": ["QuollVM Source File", "QuollVM"],
+            "extensions": [".qc"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
-            "language": "GTRPGE",
-            "scopeName": "source.gtrpge",
+            "language": "QuollVM",
+            "scopeName": "source.quollvm",
             "path": "./syntaxes/GTRPGE.tmLanguage"
         }]
     }
