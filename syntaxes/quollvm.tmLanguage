@@ -7,8 +7,7 @@
 
         <key>fileTypes</key>
         <array>
-            <string>src</string>
-            <string>gs</string>
+            <string>qc</string>
         </array>
 
         <key>name</key>
@@ -20,7 +19,16 @@
                 <key>match</match>
                 <string>//.*$</string>
                 <key>name</key>
-                <string>comment.line.character</string>
+                <string>comment.line.double-slash</string>
+            </dict>
+
+            <dict>
+                <key>begin</match>
+                <string>/\*</string>
+                <key>end</match>
+                <string>\*/</string>
+                <key>name</key>
+                <string>comment.block</string>
             </dict>
 
             <dict>
@@ -32,7 +40,7 @@
 
             <dict>
                 <key>match</match>
-                <string>\b(?:(return|push_0|push_1|push_none|push_8|push_16|push_32|set|say_uf|say|say_unsigned|say_char|pop|stack_dup|stack_peek|stack_size|call|list_push|list_pop|sort|get|has|setp|size|del|ins|typeof|astype|eq|neq|jmp|jz|jnz|lt|lte|gt|gte|not|add|sub|mult|div|mod|pow|left_shift|right_shift|bit_and|bit_or|bit_xor|bit_not|random|get_random|get_keys|stack_swap|get_setting|set_setting|get_key|get_option|get_line|add_option|str_clear|str_append|str_append_uf|str_length|str_compare|error|origin|add_page|del_page|end_page|new|is_static))\b</string>
+                <string>\b(?:(return|push_0|push_1|push_none|push_8|push_16|push_32|set|collect|say_uf|say|say_unsigned|say_char|pop|stack_dup|stack_peek|stack_size|call|is_valid|list_push|list_pop|sort|get|has|setp|size|del|ins|typeof|astype|eq|neq|jmp|jz|jnz|lt|lte|gt|gte|not|add|sub|mult|div|mod|pow|left_shift|right_shift|bit_and|bit_or|bit_xor|bit_not|random|next_object|indexof|get_random|get_keys|stack_swap|get_setting|set_setting|get_key|get_option|get_line|add_option|str_clear|str_append|str_append_uf|str_length|str_compare|error|origin|add_page|del_page|end_page|new|is_static))\b</string>
                 <key>name</key>
                 <string>constant.language</string>
             </dict>

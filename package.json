@@ -1,5 +1,5 @@
 {
-    "name": "QuollVM",
+    "name": "quollvm",
     "displayName": "QuollVM Source",
     "description": "Syntax Highlighter for QuollVM Source Files",
     "version": "0.0.1",
@@ -8,7 +8,7 @@
         "vscode": "^1.15.0"
     },
     "categories": [
-        "Languages"
+        "Programming Languages"
     ],
     "contributes": {
         "languages": [{
@@ -20,7 +20,7 @@
         "grammars": [{
             "language": "QuollVM",
             "scopeName": "source.quollvm",
-            "path": "./syntaxes/GTRPGE.tmLanguage"
+            "path": "./syntaxes/quollvm.tmLanguage"
         }]
     }
 }

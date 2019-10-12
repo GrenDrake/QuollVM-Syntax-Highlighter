@@ -1,11 +1,4 @@
-# inform6 README
+# QuollVM Syntax README
 
-This is a basic syntax highlighter for Inform 6 source code.
+This is a basic syntax highlighter for QuollVM source code for use with Visual Studio Code.
 
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of Inform 6 Syntax Highlighter.
