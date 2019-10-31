@@ -33,21 +33,21 @@
 
             <dict>
                 <key>match</key>
-                <string>\b(?i:(and|break|continue|dec|do_while|if|inc|label|option|or|print|print_uf|proc|while))\b</string>
+                <string>\b(?i:(asm|and|break|continue|dec|do_while|if|inc|label|list|option|or|print|print_uf|proc|return|string|while))\b</string>
                 <key>name</key>
                 <string>keyword.control</string>
             </dict>
 
             <dict>
                 <key>match</match>
-                <string>\b(?:(return|push_0|push_1|push_none|push_8|push_16|push_32|set|collect|say_uf|say|say_unsigned|say_char|pop|stack_dup|stack_peek|stack_size|call|is_valid|list_push|list_pop|sort|get|has|setp|size|del|ins|typeof|astype|eq|neq|jmp|jz|jnz|lt|lte|gt|gte|not|add|sub|mult|div|mod|pow|left_shift|right_shift|bit_and|bit_or|bit_xor|bit_not|random|next_object|indexof|get_random|get_keys|stack_swap|get_setting|set_setting|get_key|get_option|get_line|add_option|str_clear|str_append|str_append_uf|str_length|str_compare|error|origin|add_page|del_page|end_page|new|is_static))\b</string>
+                <string>\b(?:(ret|push_0|push_1|push_none|push_8|push_16|push_32|set|collect|say_uf|say|say_unsigned|say_char|pop|stack_dup|stack_peek|stack_size|call|is_valid|list_push|list_pop|sort|get|has|setp|size|del|ins|typeof|astype|eq|neq|jmp|jz|jnz|lt|lte|gt|gte|not|add|sub|mult|div|mod|pow|left_shift|right_shift|bit_and|bit_or|bit_xor|bit_not|random|next_object|indexof|get_random|get_keys|stack_swap|get_setting|set_setting|get_key|get_option|get_line|add_option|str_clear|str_append|str_append_uf|str_length|str_compare|error|origin|add_page|del_page|end_page|new|is_static|encode_string|decode_string))\b</string>
                 <key>name</key>
                 <string>constant.language</string>
             </dict>
 
             <dict>
                 <key>match</key>
-                <string>\b(?i:(function|object|declare|asm_function|default))\b</string>
+                <string>\b(?i:(extend|function|object|declare|asm_function|default))\b</string>
                 <key>name</key>
                 <string>keyword.other</string>
             </dict>
